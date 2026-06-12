@@ -18,7 +18,7 @@ O projeto foi construído 100% do zero utilizando as tecnologias web fundamentai
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) Para estruturação semântica de todo o conteúdo.
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) Para o layout, design e responsividade (pasta `/estilos`).
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) Para adicionar interatividade ao site (`script.js`).
--  ![Canva](https://img.shields.io/badge/Canva-4B7CD4?style=for-the-badge&logo=Canva&logoColor=white) Para fazer o rascunho e a base do design
+-  ![Canva](https://img.shields.io/badge/Canva-4B7CD4?style=for-the-badge&logo=Canva&logoColor=white) Para fazer o rascunho e a base do design.
 
 ## 📁 Estrutura de Arquivos
 
