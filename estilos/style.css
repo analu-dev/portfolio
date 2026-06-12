@@ -59,7 +59,7 @@ header nav ul li{
 /* Index */
 /* Texto */
 /* Texto inicio */
-h1{
+.nome{
   color: #54100d;
   font-size: 150px;
   font-family: "coiny", system-ui;
@@ -578,6 +578,12 @@ form button:hover{
 /* fim index */
 
 /* Playlist */
+.spotify{
+  border-radius:12px;
+  width: 352;
+  height: 352;
+  border: none;
+}
 /* divisores */
 .div-prim, .div-bang, .div-br{
   width: 1200px;
@@ -625,7 +631,7 @@ iframe{
   align-self: center;
   box-shadow: 5px 5px 0px #00000048;
 }
-.tit-play h2{
+.tit-play h1{
   color: transparent;
   font-family: "Modak", system-ui;
   -webkit-text-stroke: 2px #54100d;
@@ -634,7 +640,7 @@ iframe{
   font-size: 75px;
   padding-left: 2px;
 }
-.tit-play h2::after{
+.tit-play h1::after{
   content: 'Playlists!';          
   position: absolute;
   top: 5px;                         
