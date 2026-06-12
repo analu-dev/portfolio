@@ -733,7 +733,7 @@ iframe{
 /* fim divisores canais */
 
 /* texto canais */
-.div-t-can h2{
+.t-can{
   color: transparent;
   font-family: "Modak", system-ui;
   -webkit-text-stroke: 2px #54100d;
@@ -742,7 +742,7 @@ iframe{
   font-size: 75px;
   padding-left: 2px;
 }
-.div-t-can h2::after{
+.t-can::after{
   content: 'Canais!';          
   position: absolute;
   top: 5px;                         
@@ -762,11 +762,13 @@ iframe{
   padding-top: 22px;
 }
 .text-can{
+  font-size: large;
   position: absolute;
   color: #737f35;
   font-family: 'Iosevka Charon';
 }
 .text-can-a{
+  font-size: large;
   position: absolute;
   font-family: 'Iosevka Charon';
   color: #ead39d;
