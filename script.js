@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const contactForm = document.getElementById('contact-form');
 const submitBtn = document.getElementById('submit-btn');
 const btnText = document.getElementById('btn-text');
