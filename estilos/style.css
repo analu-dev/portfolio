@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 body{
-  background-image: linear-gradient(#1fb8e3, #436b93,#6d436e,#8e2c50, #ad0431);
+  background-image: linear-gradient(#c7e1ff, #81b9f1);
 }
 /* Cabeçalho */
 .cabecalho{
@@ -44,7 +44,7 @@ header nav ul li{
   font-style: oblique;
   font-size: 40px;
   padding-left: 20px;
-  margin-top: -20px;
+  margin-top: -8px;
 }
 
 .tt-dev{
@@ -52,14 +52,14 @@ header nav ul li{
   font-size: 25px;
   padding-left: 20px;
   padding-top: -5px;
-  margin-top: -17px;
+  margin-top: -10px;
 }
 /* fim do cabeçalho */
 
 /* Index */
 /* Texto */
 /* Texto inicio */
-h1{
+.nome{
   color: #54100d;
   font-size: 150px;
   font-family: "coiny", system-ui;
@@ -118,7 +118,7 @@ h1{
   white-space: nowrap;              
 }
 
-h4{
+.apre{
   color: #cc0000;
   font-size: 31px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -178,13 +178,13 @@ h4{
   background-size: 100% 110%;
   background-repeat: no-repeat;
   background-position-x: center;
-  background-image: url(/portfolio/imagens/adesivos/fita.png);
+  background-image: url(/imagens/adesivos/fita.png);
   display: flex;
   justify-content: center;
   align-items: center;
 } 
 .div-estu div a{
-  color: rgb(155, 45, 5);
+  color: rgb(255, 255, 255);
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 2px 2px 3px #233e45a4;
   font-size: 18px;
@@ -375,7 +375,7 @@ h4{
 }
 .imgs-skills-row2{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 /* Fim divisores sobre */
 
@@ -578,6 +578,12 @@ form button:hover{
 /* fim index */
 
 /* Playlist */
+.spotify{
+  border-radius:12px;
+  width: 352;
+  height: 352;
+  border: none;
+}
 /* divisores */
 .div-prim, .div-bang, .div-br{
   width: 1200px;
@@ -625,7 +631,7 @@ iframe{
   align-self: center;
   box-shadow: 5px 5px 0px #00000048;
 }
-.tit-play h2{
+.tit-play h1{
   color: transparent;
   font-family: "Modak", system-ui;
   -webkit-text-stroke: 2px #54100d;
@@ -634,7 +640,7 @@ iframe{
   font-size: 75px;
   padding-left: 2px;
 }
-.tit-play h2::after{
+.tit-play h1::after{
   content: 'Playlists!';          
   position: absolute;
   top: 5px;                         
@@ -727,7 +733,7 @@ iframe{
 /* fim divisores canais */
 
 /* texto canais */
-.div-t-can h2{
+.t-can{
   color: transparent;
   font-family: "Modak", system-ui;
   -webkit-text-stroke: 2px #54100d;
@@ -736,7 +742,7 @@ iframe{
   font-size: 75px;
   padding-left: 2px;
 }
-.div-t-can h2::after{
+.t-can::after{
   content: 'Canais!';          
   position: absolute;
   top: 5px;                         
@@ -756,11 +762,13 @@ iframe{
   padding-top: 22px;
 }
 .text-can{
+  font-size: large;
   position: absolute;
   color: #737f35;
   font-family: 'Iosevka Charon';
 }
 .text-can-a{
+  font-size: large;
   position: absolute;
   font-family: 'Iosevka Charon';
   color: #ead39d;
@@ -823,6 +831,7 @@ iframe{
   position: relative;
   box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.4); 
   transition: all 0.1s ease;
+  text-decoration: none;
 }
 .but-can:active {
   transform: translate(3px, 3px); 
